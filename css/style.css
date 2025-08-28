@@ -4179,6 +4179,9 @@ blockquote .author .desc {
     -vendor-animation-iteration-count: infinite;
     height: auto;
     overflow: inherit;
+    animation-duration: 0.3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
 }
 
 /*---------BREADCRUMB-----------*/
