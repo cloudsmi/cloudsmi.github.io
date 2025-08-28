@@ -13315,3 +13315,6 @@ a:hover, a:focus, a:active,
         border-radius: 0;
     }
 }
+.copy-wechat-btn {
+    cursor: pointer;
+}
