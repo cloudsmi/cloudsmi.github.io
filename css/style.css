@@ -5870,6 +5870,29 @@ ul.list-products {
     padding-top: 65px;
     padding-bottom: 65px;
 }
+/*banner service*/
+.header-banner.banner-image .banner-wrapser {
+    background-image: url(../images/service/service-background.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+}
+
+.header-banner.banner-image .banner-wrapser::after, .header-banner.banner-image .banner-wrapser::before {
+    display: table;
+    content: '';
+}
+
+.header-banner.banner-image .banner-wrapser::after {
+    clear: both;
+}
+
+.header-banner.banner-image .banner-wrapser .content-inner {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
 
 .header-banner .title {
     font-size: 36px;
